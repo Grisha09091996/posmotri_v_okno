@@ -84,8 +84,8 @@ ol {
   height: 27px;
   appearance: none;
   background-color: transparent;
-  border-top: 1px solid rgba(255, 255, 255, 0.70);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.70);
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   border-right: none;
   border-left: none;
 } 
@@ -190,7 +190,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 
 .content__list {
   height: 298px;
-  width: 399px;
+  width: 406px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -257,7 +257,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
+  width: 196px;
   height: 103px;
   object-fit: cover;
 }
